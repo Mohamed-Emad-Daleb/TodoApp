@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightPrimary">#5D9CED</color>
+    <color name="lightPrimaryDark">#1F508F</color>
+    <color name="lightSecondry">#5D9CED</color>
+    <color name="lightSecondryDark">#1F508F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transperent">#00000000</color>
+    <color name="ligth_green">#DFECDB</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+</resources>

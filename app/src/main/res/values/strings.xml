@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="tasks_list">Tasks List</string>
+    <string name="tasks_settings">Tasks settings</string>
+    <string name="Settings">settings</string>
+    <string name="select_date">select date</string>
+</resources>

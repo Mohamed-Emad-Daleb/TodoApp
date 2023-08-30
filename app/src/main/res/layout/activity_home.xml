@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ligth_green"
+    tools:context=".HomeActivity">
+  <com.google.android.material.appbar.AppBarLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="ToDo App"
+          android:layout_gravity="center"
+          android:textColor="@color/white"
+          android:textSize="32sp"
+        />
+    </androidx.appcompat.widget.Toolbar>
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/add_task"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_add"
+      app:layout_anchor="@id/bottom_AppBap"
+      />
+<include
+    android:id="@+id/content"
+    layout="@layout/content_home"/>
+  <com.google.android.material.bottomappbar.BottomAppBar
+      android:id="@+id/bottom_AppBap"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom"
+    >
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navagition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/home_navigation"
+        app:elevation="0dp"
+        android:background="#00000000"
+        />
+  </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>
